@@ -80,14 +80,13 @@ class App extends Component {
                              : "open"} 
               ref="circle">
 
-              <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&fs=1&to=candacerogers114@gmail.com"><img id="gmail" alt= 'gmail' width={200} height={150} src={require("./images/Gmail-BW.png")}/></a>
-              <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href={`https://www.linkedin.com/in/candacerogue/`} ref="linked"><img alt= 'linked' width={65} height={65} src={require("./images/LinkedIn.png")}/></a>
-              <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://github.com/candacerogue" ref="github"><img alt= 'github' width={50} height={50} src={require("./images/GitHub.png")}/></a>
-              <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/candacerogue/" ref="ig"><img alt= 'ig' width={40} height={40} src={require("./images/Instagram.png")}/></a>
-              <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/iamcandacerogue" ref="facebook"><img alt= 'facebook' width={30} height={40} src={require("./images/Facebook.png")}/></a>
-              <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://twitter.com/candacerogue" ref="twitter"><img alt= 'twitter' width={30} height={30} src={require("./images/Twitter.png")}/></a>
-              <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/candacerogue" ref="social" onClick={this.handleClick}><img alt= 'youtube' width={30} height={30} src={require("./images/YouTuber.png")}/></a>
-
+              <a target="_blank" rel="noopener noreferrer" href="#" onClick={()=>window.location.href='https://mail.google.com/mail/?view=cm&fs=1&to=candacerogers114@gmail.com'}><img id="gmail" alt= 'gmail' width={200} height={150} src={require("./images/Gmail-BW.png")}/></a>
+              <a target="_blank" rel="noopener noreferrer" href="#" ref="linked" onClick={()=>window.location.href='https://www.linkedin.com/in/candacerogue/'}><img alt= 'linked' width={65} height={65} src={require("./images/LinkedIn.png")}/></a>
+              <a target="_blank" rel="noopener noreferrer" href="#" ref="github" onClick={()=>window.location.href='https://github.com/candacerogue'}><img alt= 'github' width={50} height={50} src={require("./images/GitHub.png")}/></a>
+              <a target="_blank" rel="noopener noreferrer" href="#" ref="ig" onClick={()=>window.location.href='https://www.instagram.com/candacerogue/'}><img alt= 'ig' width={40} height={40} src={require("./images/Instagram.png")}/></a>
+              <a target="_blank" rel="noopener noreferrer" href="#" ref="facebook" onClick={()=>window.location.href='https://www.facebook.com/iamcandacerogue'}><img alt= 'facebook' width={30} height={40} src={require("./images/Facebook.png")}/></a>
+              <a target="_blank" rel="noopener noreferrer" href="#" ref="twitter" onClick={()=>window.location.href='https://twitter.com/candacerogue'}><img alt= 'twitter' width={30} height={30} src={require("./images/Twitter.png")}/></a>
+              <a target="_blank" rel="noopener noreferrer" href="#" ref="social" onClick={()=>window.location.href='https://www.youtube.com/candacerogue'}><img alt= 'youtube' width={30} height={30} src={require("./images/YouTuber.png")}/></a>
             </div>
           </nav>
         </div>
