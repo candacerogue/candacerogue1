@@ -41,10 +41,10 @@ class App extends Component {
   // }
 
   toggleMenu(){
-    console.log(this.refs);
+    // console.log(this.refs);
     // console.log(this.state.backgroundImage);
     // console.log(this.state.isVisible === false);
-    if(this.state.backgroundImage === `url(/static/media/Bitmoji.c9a777c5.png)` && this.state.isVisible === false)
+    if(this.state.isVisible === false)
       // console.log(this.state.backgroundImage);
       this.setState({isVisible: !this.state.isVisible})
   }
