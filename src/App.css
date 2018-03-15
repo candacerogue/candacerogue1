@@ -1,5 +1,9 @@
 @import "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
 
+body {
+  background-image: url('./images/Background.jpg');
+}
+
 .App {
   text-align: center;
   background-repeat: no-repeat;
