@@ -87,7 +87,7 @@ class App extends Component {
               <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/iamcandacerogue" ref="facebook"><img alt= 'facebook' width={30} height={40} src={require("./images/Facebook.png")}/></a>
               <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://twitter.com/candacerogue" ref="twitter"><img alt= 'twitter' width={30} height={30} src={require("./images/Twitter.png")}/></a>
               <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/candacerogue" ref="youtube"><img alt= 'youtube' width={30} height={30} src={require("./images/YouTuber.png")}/></a>
-
+              {/* <a onClick={this.handleChildClick} target="_blank" rel="noopener noreferrer" href="https://www.dropbox.com/s/fi8jc5kky3gxssq/Candace%20Rogers%20Resume.pdf?dl=0" ref="resume"><img alt= 'resume' width={30} height={30} src={require("./images/Web Design.png")}/></a> */}
             </div>
           </nav>
         </div>
